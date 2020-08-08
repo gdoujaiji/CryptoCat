@@ -1,0 +1,54 @@
+#catBody{
+    background-color: rgb(255, 224, 122);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.eyes{
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+
+.eye{
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 30px;
+    margin: 25px;
+    position: relative;
+
+}
+
+.pupils{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ears{
+    position: relative;
+}
+
+.ear{
+    border-radius: 90% 0 90% 0;
+    background-color: rgb(255, 224, 122);
+    width: 100px;
+    height: 100px;
+    position: absolute;    
+}
+
+.ear_left{
+    /*transform: scale(1, -1) rotate()45deg;*/
+    transform: scale(1, -1);
+    left: 0;
+}
+
+.ear_right{
+    left: 100px;
+}
