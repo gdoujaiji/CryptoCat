@@ -1,8 +1,10 @@
-#catBody{
-    background-color: rgb(255, 224, 122);
-    width: 200px;
+.catBody{
+    background-color: rgb(231, 198, 89);
+    width: 180px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px #888888;
+    
 }
 
 .eyes{
@@ -13,31 +15,33 @@
 
 .eye{
     background-color: white;
-    border-radius: 50%;
-    width: 80px;
+    border-radius: 150% 150% 150% 150%;
+    width: 100px;
     height: 30px;
     margin: 25px;
     position: relative;
-
+    box-shadow: 1px 1px 1px 0px #888888;
 }
 
 .pupils{
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    background-color: lightblue;
+    width: 25px;
+    height: 25px;
+    border-radius: 70%;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
+
 }
 
 .ears{
     position: relative;
+    z-index: -1;
 }
 
 .ear{
     border-radius: 90% 0 90% 0;
-    background-color: rgb(255, 224, 122);
+    background-color: rgb(231, 198, 89);
     width: 100px;
     height: 100px;
     position: absolute;    
@@ -50,5 +54,43 @@
 }
 
 .right_ear{
-    left: 100px;
+    left: 80px;
+}
+
+.inner_pupils_left{
+    background-color: rgb(107, 156, 196);
+    width: 5px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.inner_pupils_right{
+    background-color: rgb(107, 156, 196);
+    width: 5px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.inner_left_ear{
+    border-radius: 90% 0 90% 0;
+    background-color: rgb(255, 224, 125);
+    width: 50px;
+    height: 99px;
+    position: absolute;    
+}
+
+.inner_right_ear{
+    border-radius: 90% 0 90% 0;
+    background-color: rgb(255, 224, 125);
+    width: 50px;
+    height: 90px;
+    position: absolute; 
+    transform: scale(1, 1);
+    left: 50; 
 }
